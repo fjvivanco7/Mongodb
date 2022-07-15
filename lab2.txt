@@ -1,0 +1,19 @@
+#creamos una base de datos para los usuarios del login
+use usuarios
+
+#nuestra base como tal esta vacia así que vamos agregar datos
+db.user.insert({nombre:"Juan", apellido:"Rodriguez"})
+WriteResult({ "nInserted" : 1 })
+
+db.user.insert({nombre:"Anahi", apellido:"Romero"})
+WriteResult({ "nInserted" : 1 })
+
+db.user.insert({nombre:"Francisco", apellido:"Lopez"})
+WriteResult({ "nInserted" : 1 })
+
+db.user.insert({nombre:"Yamileth", apellido:"Chicaiza"})
+WriteResult({ "nInserted" : 1 })
+
+db.user.insert({nombre:"William", apellido:"Godoy"})
+WriteResult({ "nInserted" : 1 })
+
